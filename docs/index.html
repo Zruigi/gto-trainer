@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>GTO Trainer</title>
+  <style>
+    body{font-family:system-ui,Arial;display:flex;gap:16px;margin:0;padding:16px}
+    #left{flex:1}
+    #right{width:420px}
+    .panel{border:1px solid #ccc;border-radius:8px;padding:12px;margin-bottom:12px}
+    button{padding:8px 12px}
+  </style>
+</head>
+<body>
+  <div id="left">
+    <div id="graph" class="panel"></div>
+  </div>
+  <div id="right">
+    <div id="analysis" class="panel"></div>
+    <div id="variance" class="panel"></div>
+    <div id="controls" class="panel"></div>
+  </div>
+  <script type="module" src="./src/ui/index.js"></script>
+</body>
+</html>
